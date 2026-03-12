@@ -1,1 +1,2 @@
-bash -sL https://raw.githubusercontent.com/noelrubio143/ssl/refs/heads/main/ssh-stunnel-menu.sh)
+#  
+curl -sSL https://raw.githubusercontent.com/noelrubio143/ssl/refs/heads/main/ssh-stunnel-menu.sh -o /usr/local/bin/menu && chmod +x /usr/local/bin/menu && echo "Installation complete! Type 'menu' to run the SSH & Stunnel menu."
